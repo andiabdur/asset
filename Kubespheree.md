@@ -1,4 +1,4 @@
-# Managing Kubesphare Ks Core || GSP766 ||
+# Managing Kubesphare Ks Core
 
 🔑 **Solution [here](https://github.com/andiabdur/asset)**  
 
