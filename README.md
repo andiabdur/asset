@@ -1,7 +1,5 @@
 # Install Kubernetes & Kubespheree
 
-🔑 **Solution [here](https://github.com/andiabdur/asset)**  
-
 ---
 
 # 📦 Dependency Requirements
@@ -36,6 +34,8 @@ sudo apt install socat conntrack ipvsadm -y
 curl -sfL https://get-kk.kubesphere.io | sh -
 
 ```
+---
+
 ### ⏰ Proscess Membuat File config-v1.33.1.yaml menggunakan Kubekey Berikut Commandnya
 
 ``` bash
@@ -44,12 +44,16 @@ curl -sfL https://get-kk.kubesphere.io | sh -
 
 - Jika Sudah Terbuat untuk file confignya bisa Edit file confignya dan sesuaikan dengan node yang sudah ada
 
+---
+
 ### 🚀 Setelah Kalian Edit dan simpan kalian bisa menjalankan script berikut ini di command kalian
 
 ``` bash
 ./kk create cluster -f [(-f | --filename) path]
 
 ```
+
+---
 
 # ▶️ Install Kubesphare 
 
