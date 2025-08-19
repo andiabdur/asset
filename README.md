@@ -17,14 +17,14 @@ Silakan cek tabel berikut untuk memastikan dependensi sudah ada di node kamu:
 | `ipset`    | Optional but recommended   |
 | `ipvsadm`  | Optional but recommended   |
 
----
 
 ### atau bisa menjalankan dibawah ini agar lebih mempermudah saat installasinya
 
 ``` bash
 sudo apt install socat conntrack ipvsadm -y
-
 ```
+
+---
 
 # Install Kubernetes Menggunakan Kubekey 
 
