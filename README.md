@@ -21,13 +21,12 @@ Silakan cek tabel berikut untuk memastikan dependensi sudah ada di node kamu:
 
 ---
 
-# 🌐 Networking & DNS Requirements
+### atau bisa menjalankan dibawah ini agar lebih mempermudah saat installasinya
 
-- Pastikan DNS address di file `/etc/resolv.conf` tersedia.  
-  Jika tidak, bisa menyebabkan masalah DNS di cluster.  
+``` bash
+sudo apt install socat conntrack ipvsadm -y
 
-- Jika konfigurasi network kamu menggunakan **Firewall** atau **Security Group**,  
-  pastikan semua komponen infrastruktur bisa saling berkomunikasi melalui port tertentu.  
+```
 
 # Install Kubernetes Menggunakan Kubekey 
 
