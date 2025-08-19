@@ -52,8 +52,14 @@ curl -sfL https://get-kk.kubesphere.io | sh -
 ./kk create cluster -f [(-f | --filename) path]
 
 ```
-
 ---
+### Add Nodes Kubernetes
+setelah sudah menambahkan node di dalam config-v1.33.1.yam bisa dilanjutkan menjalankan command dibawah ini
+
+``` bash
+./kk add nodes -f config-v1.33.1.yaml
+```
+
 
 # ▶️ Install Kubesphare 
 
