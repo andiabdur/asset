@@ -51,7 +51,7 @@ curl -sfL https://get-kk.kubesphere.io | sh -
 
 ```
 
-# ▶️ Untuk Install Kubesphare 
+# ▶️ Install Kubesphare 
 
 ```bash
 
