@@ -1,4 +1,4 @@
-# Managing Kubesphare Ks Core & Install Kubernetes
+# Install Kubernetes & Kubespheree
 
 🔑 **Solution [here](https://github.com/andiabdur/asset)**  
 
