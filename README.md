@@ -26,39 +26,17 @@ sudo apt install socat conntrack ipvsadm -y
 
 ---
 
-# Install Kubernetes Menggunakan Kubekey 
-
-### ⌛️ Download Kubekey menggunakan Command Dibawah ini 
+# ⌛️ Install Kubernetes Menggunakan Kubekey 
 
 ``` bash
-curl -sfL https://get-kk.kubesphere.io | sh -
+curl -O https://raw.githubusercontent.com/andiabdur/asset/main/install-kubekey.sh
 
+chmod +x install-kubekey.sh
+
+./install-kubesphere.sh
 ```
----
-
-### ⏰ Proscess Membuat File config-v1.33.1.yaml menggunakan Kubekey Berikut Commandnya
-
-``` bash
-./kk create config [--with-kubernetes version] [(-f | --filename) path]
-```
-
-- Jika Sudah Terbuat untuk file confignya bisa Edit file confignya dan sesuaikan dengan node yang sudah ada
 
 ---
-
-### 🚀 Setelah Kalian Edit dan simpan kalian bisa menjalankan script berikut ini di command kalian
-
-``` bash
-./kk create cluster -f [(-f | --filename) path]
-
-```
----
-### Add Nodes Kubernetes
-setelah sudah menambahkan node di dalam config-v1.33.1.yam bisa dilanjutkan menjalankan command dibawah ini
-
-``` bash
-./kk add nodes -f config-v1.33.1.yaml
-```
 
 
 # ▶️ Install Kubesphare 
